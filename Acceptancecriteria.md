@@ -21,14 +21,14 @@
   - [X] THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
 - [X] WHEN I enter a comment and click on the submit button while signed in
 - [X]  THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-  - [ ]display comments on post
+  - []display comments on post
 - [X] WHEN I click on the dashboard option in the navigation
   - [x] THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
   
 - [X] WHEN I click on the button to add a new blog post
   - [X] THEN I am prompted to enter both a title and contents for my blog post
 - [X] WHEN I click on the button to create a new blog post
-  - [ ] THEN the title and contents of my post are saved and I am taken back to an updated dashboard with  my new blog post
+  - [X] THEN the title and contents of my post are saved and I am taken back to an updated dashboard with  my new blog post
 - [X] WHEN I click on one of my existing posts in the dashboard
   - [X] THEN I am able to delete or update my post and taken back to an updated dashboard
 - [X] WHEN I click on the logout option in the navigation
