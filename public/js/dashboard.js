@@ -3,7 +3,7 @@ const newFormHandler = async (event) => {
 
   const title = document.querySelector('#post-title').value.trim();
  
-  const content = document.querySelector('#post-desc').value.trim();
+  const content = document.querySelector('#post-content').value.trim();
 
   if (title && content) {
     const response = await fetch(`/api/posts`, {
@@ -19,6 +19,9 @@ const newFormHandler = async (event) => {
     } else {
       alert('Failed to create post');
     }
+  }
+  else {
+    alert("content and title are required");
   }
 };
 
