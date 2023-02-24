@@ -3,6 +3,10 @@ module.exports = {
     // Format date as MM/DD/YYYY
     return date.toLocaleDateString();
   },
+  jsonSerialize: (obj) => {
+   
+    return JSON.stringify(obj);
+  },
   format_amount: (amount) => {
     // format large numbers with commas
     return parseInt(amount).toLocaleString();

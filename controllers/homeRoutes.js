@@ -35,6 +35,11 @@ router.get('/post/:id', async (req, res) => {
           model: User,
           attributes: ['name'],
         },
+        // {
+        //   model: Comment,
+        //   attributes: ['content', 'date_posted'],
+        //   required: false
+        // },
       ],
     });
 
@@ -46,6 +51,7 @@ router.get('/post/:id', async (req, res) => {
     });
   } catch (err) {
     res.status(500).json(err);
+    console.log(err);
   }
 });
 
