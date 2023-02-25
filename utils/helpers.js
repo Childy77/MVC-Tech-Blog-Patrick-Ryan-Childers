@@ -3,6 +3,10 @@ module.exports = {
     // Format date as MM/DD/YYYY
     return date.toLocaleDateString();
   },
+  format_date_time: (event) => {
+    
+    return event.toLocaleString('en-US');
+  },
   jsonSerialize: (obj) => {
    
     return JSON.stringify(obj);

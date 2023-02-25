@@ -4,10 +4,11 @@ async function commentClickHandler(event) {
 
     if (content) {
 
+const post_id = document.location.pathname.substring(6);
 
         const response = await fetch("/api/comments/", {
             method: 'POST',
-            body: JSON.stringify({ content }),
+            body: JSON.stringify({ content, post_id }),
             headers: { 'Content-Type': 'application/json' },
         })
         if (response.ok) {
