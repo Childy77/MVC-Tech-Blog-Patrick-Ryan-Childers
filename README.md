@@ -1,7 +1,12 @@
 
 # Patrick Ryan Childers Tech Blog
 
-![]images\Screenshot 2023-03-04 084640.png
+  ## Screenshot
+  ![]C:\Users\ryanb\code\MVC-Tech-Blog-Patrick-Ryan-Childers\images\Screenshot 2023-03-04 084640.png
+
+  ## Website URL
+
+  https://mvc-tech-blog-patrick-childers.herokuapp.com/
 
   ## Description
   
